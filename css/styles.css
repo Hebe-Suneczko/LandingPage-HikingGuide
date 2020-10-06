@@ -38,10 +38,9 @@ body {
     text-transform: uppercase;
     color: #FBD784;
     display: flex;
-    align-items: center;
-    justify-content: flex-start;
+    justify-content: center;
     padding-top: 203px;
-    padding-left: 28%;
+    padding-right: 34%;
 }
 
 .main__hero>h1 {
@@ -360,7 +359,8 @@ section.your-active-class .landing__container::after {
 
 @media only screen and (min-width: 1025px) and (max-width: 1920px) {
     .main__hero>p {
-        padding-left: 25em;
+        justify-content: center;
+        padding-right: 40%;
     }
     .main__hero>h2 {
         padding-left: 25em;
